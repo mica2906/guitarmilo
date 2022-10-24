@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500;600;700&family=Silkscreen&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gemunu libre", sans-serif;
+
+}
+
+
+.header{
+  display: flex;
+
+}
+
+.logo{
+  display: flex;
+  background-image: url("../../PARCIAL diseño web/img/guitarra.jpg");
+  height: 250px;
+
+}
+
+.logo-img{
+  height: 300px;
+}
+
+.nav-link{
+  display: inline;
+  justify-content:  space-around;
+}
+
+.logo .logo-nombre{
+  display: flex;
+  color: white;
+}
+
+.nav-link{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 15px;
+  letter-spacing: 1px;
+
+
+
+}
+.links{
+  background-color: red;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+
+}
+
+.nav-link:hover{
+  color: #444;
+}
+.logo:hover{
+  color: #444;
+}
+
+.columna1{
+  float: left;
+  }
+
+  .columna2{
+    width: 900px;
+   margin: 0 auto;
+   background-color: white;
+   padding: 0 20px 800px 20px;
+   border: 5px solid black;
+   align-items: center;
+
+
+    }
+
+.columna2 h1 {
+  background: red;
+  color: white;
+  float:left;
+
+
+  }
+
+.columna2 h2{
+color: white;
+  box-sizing: border-box;
+  align-items: center;
+  background: #444;
+
+}
+
+.columna2 img{
+
+right: 600px;
+align-content: center;
+background: blue;
+
+}
+.columna2 ul{
+  align-items: center;
+}
+
+.final{
+  background: RED;
+  color: white;
+  text-align: center;
+  height: 400px;
+  background-image:
+}
